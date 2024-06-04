@@ -8,24 +8,24 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx1a846cfc070bd3f4',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: '63dceb07fa1b9880d125673e7bef9336',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '北京',
+  CITY: '朝阳',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '赵晟凯',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o1G2l6rgymB1_Sj1BhkRl9Gl6VxE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'nWs2ifi6rGoLdLrLKZZXPRomwboLydzZW8_vNvKefdQ',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '2-27',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
